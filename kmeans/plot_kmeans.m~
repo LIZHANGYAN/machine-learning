@@ -1,0 +1,7 @@
+function plot_kmeans(dataSet,centroids,clusterAssment)
+for i=1:size(centroids,1)
+    indexs = find(clusterAssment(:,1) == i);
+    subData = dataSet(indexs,:);
+    
+end
+end
